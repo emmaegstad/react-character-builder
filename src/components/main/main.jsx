@@ -6,11 +6,10 @@ import Counter from '../counter/Counter';
 
 export default function Main() {
   return (
-    <>
-      <h1>This is the main section.</h1>
+    <main className="Main">
       <Preview />
       <Editor />
       <Counter />
-    </>
+    </main>
   );
 }
