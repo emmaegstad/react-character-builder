@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Main.css';
 import Preview from '../preview/Preview';
-import Editor from '../editor/Editor';
+import Editor from '../editor/editor';
 import Counter from '../counter/Counter';
 
 export default function Main() {
