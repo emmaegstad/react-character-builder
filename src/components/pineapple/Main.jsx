@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Main.css';
-import Preview from '../preview/Preview';
+import Preview from '../preview2/Preview';
 import Editor from '../editor/editor';
 import Counter from '../counter/Counter';
 
