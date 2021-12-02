@@ -27,7 +27,7 @@ export default function Editor({
     setBottom(e.target.value);
     setBottomCount((prevState) => prevState + 1);
   };
-  const handleClick = (e) => {
+  const handleClick = () => {
     setPhraseList((prevState) => [...prevState, catchphrase]);
     setCatchphrase('');
   };
